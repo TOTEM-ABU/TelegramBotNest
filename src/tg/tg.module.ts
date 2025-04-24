@@ -7,7 +7,7 @@ import { BookModule } from 'src/book/book.module';
 @Module({
   imports: [
     TelegrafModule.forRoot({
-      token: '7590432507:AAGTLovd4e9enJZED65td-ffYk3hULj4y5s',
+      token: 'YOUR_TELEGRAMBOT`S_TOKEN',
     }),
     BookModule,
   ],
