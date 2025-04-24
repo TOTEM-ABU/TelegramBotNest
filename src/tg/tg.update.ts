@@ -11,7 +11,7 @@ export class TgUpdate {
   constructor(
     @InjectModel(Book.name) private readonly bookModel: Model<Book>,
   ) {}
-  private readonly channel = '@suitcas';
+  private readonly channel = '@YOUR_CHANNEL'S_NICKNAME';
 
   private async checkSubscription(ctx: Context): Promise<boolean> {
     try {
