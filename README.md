@@ -27,11 +27,7 @@ tg bot
 
 does not work if not subscribed to the channel
 
-book crud rest-api
-
-start saving userlasers by clicking
-
-view, delete books via bot commands
+book crud with bot
 
 ## Project setup
 
