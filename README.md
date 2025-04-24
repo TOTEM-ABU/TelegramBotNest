@@ -57,6 +57,19 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## Packages you should install
+
+```bash
+# telegraf
+$ yarn add nestjs-telegraf telegraf
+
+# mongoose
+$ yarn add @nestjs/mongoose mongoose
+
+# validation
+$ yarn add class-validator class-transformer
+```
+
 ## Deployment
 
 When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
